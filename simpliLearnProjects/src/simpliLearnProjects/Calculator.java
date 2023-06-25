@@ -7,10 +7,10 @@ public class Calculator
     {
         Scanner scanner = new Scanner(System.in);
         
-        System.out.print("Enter the first number : ");
+        System.out.print("Enter the first number: ");
         double num1 = scanner.nextDouble();
         
-        System.out.print("Enter the second number : ");
+        System.out.print("Enter the second number: ");
         double num2 = scanner.nextDouble();
         
         System.out.println("Select the operation (+, -, *, /): ");
@@ -44,11 +44,10 @@ public class Calculator
                 }
                 break;
             default:
-                System.out.println("Error: Invalid operator!!!");
+                System.out.println("Error: Invalid operator!");
         }
         
         scanner.close();
-        System.out.println("I am done.");
     }
 }
 
