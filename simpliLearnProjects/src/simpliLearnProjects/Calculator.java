@@ -48,6 +48,7 @@ public class Calculator
         }
         
         scanner.close();
+        System.out.println("I am done.");
     }
 }
 
